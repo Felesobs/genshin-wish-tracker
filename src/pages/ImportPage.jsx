@@ -13,7 +13,7 @@ const HOW_TO_STEPS = [
     n: 2,
     title: 'Get the URL (PC)',
     body: 'Open PowerShell or CMD and run:',
-    code: `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://gist.github.com/MadeBaruna/1d75c1d37d19eca71591ec8a31178235/raw/getlink.ps1'))} global"`,
+    code: `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://github.com/Felesobs/genshin-wish-tracker/blob/main/getlink.ps1'))} global"`,
 note: 'Run in PowerShell (not CMD). The URL will be copied to your clipboard automatically.',
   },
   {
